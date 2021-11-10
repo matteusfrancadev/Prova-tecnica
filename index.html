@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;700&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap"
+        rel="stylesheet">
+    <title>Prova Técnica</title>
+</head>
+
+<body>
+    <header>
+        <hgroup>
+            <h1>Prova Técnica</h1>
+            <h2>Prova de conhecimentos</h2>
+        </hgroup>
+
+        <p>esse teste foi feito para saber os conhecimentos dos usuários na área da tecnologia(TI)</p>
+    </header>
+
+    <form action="" method="get" autocomplete="off">
+        <div class="container">
+            <div>
+                <label>Nome Completo:</label>
+                <input type="text" name="name" id="name">
+            </div>
+
+            <div>
+                <label>Data de Nascimento:</label>
+                <input type="date" name="date" id="date">
+            </div>
+
+            <div>
+                <label>Email:</label>
+                <input type="email" name="email" id="email">
+            </div>
+
+            <div>
+                <label>Qual área da tecnologia você se qualifica?</label>
+
+                <label for="front-end" class="group">
+                    <input class="area" type="radio" name="option" id="front-end">
+                    Front-End
+                </label>
+
+                <label for="back-end" class="group">
+                    <input class=" area" type="radio" name="option" id="back-end">
+                    Back-end
+                </label>
+
+                <label for="mobile" class="group">
+                    <input class="area" type="radio" name="option" id="mobile">
+                    Mobile
+                </label>
+
+                <label for="fullstack" class="group">
+                    <input class="area" type="radio" name="option" id="fullstack">
+                    Fullstack
+                </label>
+
+                <label for="outro" class="group">
+                    <input class="area" type="radio" name="option" id="other">
+                    Outro
+                </label>
+            </div>
+
+            <div>
+                <label>Qual o input que define senhas?</label>
+                <input type="text" name="input-senha" id="input-senha">
+            </div>
+
+            <div>
+                <label>HTML é uma linguagem de programação que está atualmente na sua versão 5, Verdadeiro ou Falso?</label>
+
+                    <label>
+                        <input class="area" type="radio" name="html-true-false" id="html-true-false">
+                        Verdadeiro
+                    </label>
+                
+
+                <label>
+                    <input class="area" type="radio" name="html-true-false" id="html-true-false">
+                    Falso
+                </label>
+            </div>
+
+            <div>
+                <label>Qual o nome da tag que agrupa as tags do cabeçalho?</label>
+                <input type="text" name="hgroup" id="hgroup">
+            </div>
+
+            <div>
+                <label>Qual o nome da tag para preencher formulário?</label>
+                <input type="text" name="form" id="form">
+            </div>
+
+            <div>
+                <label>o HTML na sua atual versão, chegou com algumas novas tags semânticas, quais são elas?</label>
+                <input type="text" name="html5" id="html5">
+            </div>
+
+            <div>
+                <label>Para o HTML possuir um designer atraente, ele precisa da ajuda do CSS que faz toda a estilização
+                    do site, e para o CSS chamar o HTML é necessário usar seletores, quais seletores são mais
+                    usados?</label>
+
+                <input class="area" type="checkbox" name="selector" value="class">
+                <label class="group02">*</label>
+
+                <input class="area" type="checkbox" name="selector" value="sum">
+                <label class="group02">+</label>
+
+                <input class="area" type="checkbox" name="selector" value="score">
+                <label class="group02">.</label>
+
+                <input class="area" type="checkbox" name="selector" value="hashtag">
+                <label class="group02">#</label>
+
+                <input class="area" type="checkbox" name="selector" value="at-sign">
+                <label class="group02">@</label>
+            </div>
+
+            <div>
+                <div>
+                    <label>Qual a propriedade que coloca os textos e as caixas com sombra?</label>
+                    <input class="input02" type="text" name="shadow" id="shadow">
+                </div>
+
+                <div>
+                    <label>Qual a medida absoluta mais usada?</label>
+                    <input class="input02" type="text" name="pixel" id="pixel">
+                </div>
+
+                <div>
+                    <label>Como colocar as bordas arredondadas?</label>
+                    <input class="input02" type="text" name="border-radius" id="border-radius">
+                </div>
+
+                <div>
+                    <label>Qual atributo que não permite outros elementos na mesma linha que ele?</label>
+                    <input class="input02" type="text" name="display" id="display">
+                </div>
+            </div>
+
+            <button type="submit">Concluir</button>
+        </div>
+    </form>
+</body>
+
+</html>
