@@ -62,6 +62,10 @@ input:focus {
     display: inline-block;
 }
 
+.label-selector {
+    width: 830px;
+}
+
 .group {
     display: inline;
     margin-right: 8px;
