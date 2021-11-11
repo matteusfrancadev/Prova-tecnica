@@ -1,7 +1,5 @@
 # Prova-tecnica
 
-# Tela-de-Login/Cadastro
-
 ![GitHub repo size](https://img.shields.io/github/repo-size/matteusfrancadev/README-template?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/matteusfrancadev/README-template?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/matteusfrancadev/README-template?style=for-the-badge)
@@ -22,7 +20,7 @@ O projeto ainda está em desenvolvimento e essas foram as tarefas executadas:
 - [ ] Usar o javascript e retornar a porcentagem de acertos
 
 ## 💻 Link
-<a href="https://prova-tecnica.netlify.app/" target="_blank"> Link do projeto</a>
+<a href="https://matteusfrancadev.github.io/Prova-tecnica/" target="_blank"> Link do projeto</a>
 
 ## 🤝 Colaboradores
 
